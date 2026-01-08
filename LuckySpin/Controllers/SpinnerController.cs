@@ -15,7 +15,7 @@ namespace LuckySpin.Controllers
 
 
             //TODO: Modify this to use the string builder's response string as the Content property's value
-            return new ContentResult { Content = "<h1>We're Ready to Spin with Controllers</h1>", ContentType="text/html"};
+            return new ContentResult { Content = $"<h1>We're Ready to Spin with Lucky Number {luck}</h1>", ContentType="text/html"};
         }
     }
 }
