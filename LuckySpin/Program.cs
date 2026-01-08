@@ -1,7 +1,7 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
 // Install Services using the builder.Services methods
-  //  TODO: add the "Controllers" method to the "builder" to enable MVC controllers
+  //  TODO: include the builder service "AddControllers" to enable MVC controllers
  
 
 //Builds the app with the added services
@@ -16,7 +16,7 @@ app.UseStaticFiles();
 if (!app.Environment.IsDevelopment()) {
     app.UseExceptionHandler("/Spinner/Error");
 }
-//   TODO: add Routing to recognize custom "Routes" in place of folders and files
+//   TODO: include the app method "UseRouting" to recognize custom "Routes" in place of folders and files
 
 
 

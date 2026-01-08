@@ -11,7 +11,7 @@ namespace LuckySpin.Controllers
 
         public IActionResult Index(int luck) 
         {
-            //TODO: add your string builder and HTML
+            //TODO: add your string builder and HTML from Exercise 0 here
 
 
             //TODO: Modify this to use the string builder's response string as the Content property's value
