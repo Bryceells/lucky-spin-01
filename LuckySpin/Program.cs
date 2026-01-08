@@ -25,7 +25,7 @@ app.UseRouting();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller}/{action}/{luck}",
+    pattern: "{controller}/{action}/{luck:int}",
     defaults: new
     {
         controller = "Spinner",
